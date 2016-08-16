@@ -1,6 +1,6 @@
 var owsApp = angular.module('owsApp', []);
 owsApp.controller('serviceCtrl', function ($scope, $http){
-  $http.get('services.json').success(function(data) {
+  $http.get('/data/services.json').success(function(data) {
     //console.log(data);
     $scope.services = groupServices(data.services);
   });
