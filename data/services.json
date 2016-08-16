@@ -1,0 +1,375 @@
+{
+	"schema": "services.ows.delhi.gov.in",
+	"services": 
+	[
+       {
+         "name": "Student loans",
+         "department": [
+            "Department of Education"
+         ],
+         "link": "http://delhi.gov.in/wps/wcm/connect/DOIT_DSFDC/dsfdc/scheme+at+a+glance/education+loan+scheme",
+         "embed": true,
+         "groups": [
+            "Education"
+         ]
+      },
+       {
+         "name": "Check results online",
+         "department": [
+            "Department of Education"
+         ],
+         "link": "http://results.delhi.edu/exams/SBE-X/2016",
+         "embed": true,
+         "groups": [
+            "Education"
+         ]
+      },
+       {
+         "name": "Get admission online",
+         "department": [
+            "Department of Education"
+         ],
+         "link": "http://delhi.edu/admissions/apply",
+         "embed": true,
+         "groups": [
+            "Education",
+            "Technology"
+         ]
+      },
+       {
+         "name": "Farmer helpline",
+         "department": [
+            "Department of aggriculture"
+         ],
+         "link": "https://duckduckgo.com/?q=Delhi Farmer helpline",
+         "embed": false,
+         "groups": [
+            "Aggriculture"
+         ]
+      },
+       {
+         "name": "Farmer loans",
+         "department": [
+            "Department of aggriculture"
+         ],
+         "link": "https://duckduckgo.com/?q=Delhi Farmer loans",
+         "embed": false,
+         "groups": [
+            "Aggriculture"
+         ]
+      },
+       {
+         "name": "Online insurance",
+         "department": [
+            "Department of Finance"
+         ],
+         "link": "https://duckduckgo.com/?q=Delhi Online insurance",
+         "embed": false,
+         "groups": [
+            "Technology"
+         ]
+      },
+       {
+         "name": "Online investment",
+         "department": [
+            "Department of Finance"
+         ],
+         "link": "https://duckduckgo.com/?q=Delhi Online investment",
+         "embed": false,
+         "groups": [
+            "Banking"
+         ]
+      },
+       {
+         "name": "Bank Account opening",
+         "department": [
+            "Department of Finance"
+         ],
+         "link": "https://duckduckgo.com/?q=Delhi Bank Account opening",
+         "embed": false,
+         "groups": [
+            "Banking"
+         ]
+      },
+       {
+         "name": "Declare dependants",
+         "department": [
+            "Department of Finance"
+         ],
+         "link": "https://duckduckgo.com/?q=Delhi Declare dependants",
+         "embed": false,
+         "groups": [
+            "Banking"
+         ]
+      },
+       {
+         "name": "CCTV footage request",
+         "department": [
+            "Department of Police"
+         ],
+         "link": "https://duckduckgo.com/?q=Delhi CCTV footage request",
+         "embed": false,
+         "groups": [
+            "Technology"
+         ]
+      },
+       {
+         "name": "Report crime",
+         "department": [
+            "Department of Police"
+         ],
+         "link": "https://duckduckgo.com/?q=Delhi Report crime",
+         "embed": false,
+         "groups": [
+            "Police"
+         ]
+      },
+       {
+         "name": "Passport verification",
+         "department": [
+            "Department of Police"
+         ],
+         "link": "https://duckduckgo.com/?q=Delhi Passport verification",
+         "embed": false,
+         "groups": [
+            "Police"
+         ]
+      },
+       {
+         "name": "Online bill payment",
+         "department": [
+            "Department of Electricity"
+         ],
+         "link": "https://duckduckgo.com/?q=Delhi Online bill payment",
+         "embed": false,
+         "groups": [
+            "Electricity"
+         ]
+      },
+       {
+         "name": "Water bill payment",
+         "department": [
+            "Department of Water"
+         ],
+         "link": "http://djb.gov.in/DJBPortal/portals/DJBCustomer.portal",
+         "embed": true,
+         "groups": [
+            "Water"
+         ]
+      },
+       {
+         "name": "Online application",
+         "department": [
+            "Department of Water"
+         ],
+         "link": "http://www.delhi.gov.in/wps/",
+         "embed": false,
+         "groups": [
+            "Water"
+         ]
+      },
+       {
+         "name": "Water meter reading",
+         "department": [
+            "Department of Water"
+         ],
+         "link": "https://duckduckgo.com/?q=Delhi Water meter reading",
+         "embed": false,
+         "groups": [
+            "Water"
+         ]
+      },
+       {
+         "name": "Electric meter reading",
+         "department": [
+            "Department of Electricity"
+         ],
+         "link": "https://duckduckgo.com/?q=Delhi Electric meter reading",
+         "embed": false,
+         "groups": [
+            "Electricity"
+         ]
+      },
+       {
+         "name": "Free WiFi",
+         "department": [
+            "Department of Technology"
+         ],
+         "link": "https://duckduckgo.com/?q=Delhi Free WiFi",
+         "embed": false,
+         "groups": [
+            "Technology"
+         ]
+      },
+       {
+         "name": "Online storage",
+         "department": [
+            "Department of Technology"
+         ],
+         "link": "https://duckduckgo.com/?q=Delhi Online storage",
+         "embed": false,
+         "groups": [
+            "Technology"
+         ]
+      },
+       {
+         "name": "Online storage 2",
+         "department": [
+            "Department of Technology"
+         ],
+         "link": "https://duckduckgo.com/?q=Delhi Online storage 2",
+         "embed": false,
+         "groups": [
+            "Technology"
+         ]
+      },
+       {
+         "name": "Vaccinations",
+         "department": [
+            "Department of Health"
+         ],
+         "link": "http://www.delhi.gov.in/wps/wcm/connect/DoIT_Health/health/home/family+welfare/mch/immunization+services",
+         "embed": false,
+         "groups": [
+            "Health"
+         ]
+      },
+       {
+         "name": "Health insurance",
+         "department": [
+            "Department of Health"
+         ],
+         "link": "https://duckduckgo.com/?q=Delhi Health insurance",
+         "embed": false,
+         "groups": [
+            "Health"
+         ]
+      },
+       {
+         "name": "Online insurance",
+         "department": [
+            "Department of Health"
+         ],
+         "link": "https://duckduckgo.com/?q=Delhi Online insurance",
+         "embed": false,
+         "groups": [
+            "Health",
+            "Technology"
+         ]
+      },
+       {
+         "name": "Report broken road",
+         "department": [
+            "Department of Public Works"
+         ],
+         "link": "https://www.pwddelhi.gov.in/",
+         "embed": true,
+         "groups": [
+            "Public Works"
+         ]
+      },
+       {
+         "name": "Traffic app",
+         "department": [
+            "Department of Public Works"
+         ],
+         "link": "https://duckduckgo.com/?q=Delhi Traffic app",
+         "embed": false,
+         "groups": [
+            "Public Works",
+            "Technology"
+         ]
+      },
+       {
+         "name": "Tenders",
+         "department": [
+            "Department of Public Works"
+         ],
+         "link": "https://duckduckgo.com/?q=Delhi Tenders",
+         "embed": false,
+         "groups": [
+            "Public Works",
+            "Technology"
+         ]
+      },
+       {
+         "name": "Vendor services",
+         "department": [
+            "Department of Public Works"
+         ],
+         "link": "https://duckduckgo.com/?q=Delhi Vendor services",
+         "embed": false,
+         "groups": [
+            "Public Works"
+         ]
+      },
+       {
+         "name": "Pay tax online",
+         "department": [
+            "Department of Revenue"
+         ],
+         "link": "http://dvat.gov.in/website/home.html",
+         "embed": false,
+         "groups": [
+            "Revenue",
+            "Technology"
+         ]
+      },
+       {
+         "name": "Easy VAT",
+         "department": [
+            "Department of Revenue"
+         ],
+         "link": "http://dvat.gov.in/website/home.html",
+         "embed": false,
+         "groups": [
+            "Revenue"
+         ]
+      },
+       {
+         "name": "Grievances",
+         "department": [
+            "Department of Revenue"
+         ],
+         "link": "http://pgms.delhi.gov.in/",
+         "embed": false,
+         "groups": [
+            "Revenue"
+         ]
+      },
+       {
+         "name": "Parks near you",
+         "department": [
+            "Department of Public Works"
+         ],
+         "link": "https://duckduckgo.com/?q=Delhi Parks near you",
+         "embed": false,
+         "groups": [
+            "Recreation",
+            "Technology"
+         ]
+      },
+       {
+         "name": "Sports facilities",
+         "department": [
+            "Department of Public Works"
+         ],
+         "link": "https://duckduckgo.com/?q=Delhi Sports facilities",
+         "embed": false,
+         "groups": [
+            "Recreation"
+         ]
+      },
+       {
+         "name": "Delhi Movie festival",
+         "department": [
+            "Department of Public Works"
+         ],
+         "link": "http://www.delhitourism.gov.in/delhitourism/index.jsp",
+         "embed": false,
+         "groups": [
+            "Recreation"
+         ]
+      }
+   ]
+}

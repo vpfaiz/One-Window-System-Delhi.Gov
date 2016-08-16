@@ -1,0 +1,72 @@
+<html ng-app="owsApp">
+  <head>
+    <meta charset="utf-8">
+    <title>OWS - Delhi Government</title>
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.1/angular.min.js"></script>
+    
+    <script src="/scripts/scripts.js"></script>
+    <link href="/scripts/styles.css" rel="stylesheet">
+    
+    <script>
+    </script>
+  </head>
+  <body ng-controller="serviceCtrl">
+
+    <nav class="navbar navbar-inverse navbar-static-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/ows">One Window System</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Help</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container" style="padding-top: 20px">
+      <div class="search">
+        <div class="bar">
+          <label class="col-md-1 col-md-offset-2">Search: </label>
+          <div class="col-md-6 box">
+            <input placeholder="Type a service you want..." ng-model="query" type="text" id="tbQuery" class="form-control"/>
+          </div>
+        </div>
+        <div class="results">
+          <div ng-class="getClass()" ng-repeat="group in services | filter:{services: query} | orderBy:sortField">
+            <label>{{group.name}}</label>
+            <a class="service" target="IfBrowser" onclick="javascript:clickService();" href="{{service.link}}" ng-repeat="service in group.services | filter:query | orderBy:'name'">{{service.name}}</a>
+          </div>
+        </div>        
+      </div>
+      <div class="browser col-md-9">
+        <div class="title">
+            <label>Service name</label>
+            <a href="#" target="_new">
+              <span class="glyphicon glyphicon-new-window" aria-hidden="true" style="float: right"></span>
+            </a>
+          </div>
+        <iframe name="IfBrowser" class="col-xd-12"></iframe>
+      </div>      
+    </div>
+    <div style="text-align: center; font-size: 1.2em; margin-top: 4vh; padding-top: 2vh; border-top: 1px dashed gainsboro">
+        <p><a href="#">WhatsApp</a> | <a href="#">Facebook</a> | <a href="#">Twitter</a> | <a href="#">Google+</a> | <a href="#">Email</a></p>
+        <p style="font-size: 1.3em; margin-bottom: 100px">Call us on 1800 123 123</p>
+      </div>
+  </body>
+</html>

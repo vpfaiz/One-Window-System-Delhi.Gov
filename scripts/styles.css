@@ -1,0 +1,53 @@
+.search .bar {
+	margin-top: 10vw;
+    margin-bottom: 10vw;
+    display: inline-block;
+    width: 100%;
+}
+.search>.bar>label {
+	text-align: right;
+    line-height: 34px;
+}
+.results {
+    text-align: center;
+}
+.group {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+    padding: 1em;
+    max-height: 160px;
+    overflow: hidden;
+
+    width: 185px;
+}
+.group-ac {
+    padding: 1em 0 0 0;
+    text-align: left;
+    max-height: none;
+    width: 95%;
+}
+.group label {
+    font-weight: normal;
+    font-size: 1.2em;
+    text-overflow: ellipsis;
+    border-bottom: 1px dashed;
+
+}
+.service {
+    margin: .5em 0;
+    display: block;
+}
+.browser {
+    display: none;
+}
+.browser .title {
+    background-color: gainsboro;
+    padding: .5em 1em;
+}
+.browser iframe {
+    border: 1px solid silver;
+    border-top: none;
+    width: 100%;
+    min-height: 85vh;
+}
