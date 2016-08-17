@@ -41,8 +41,8 @@ function clickService() {
 
     // resize search pane
     $('.search').addClass('col-md-3');
-    $('.bar').css('margin',0).children('label').hide();
-    $('.bar .box').removeClass('col-md-6');
+    $('.bar').css('margin',0);//.children('label').hide();
+    $('.bar .box').removeClass('col-md-6 col-md-offset-3');
     $('.group').removeClass('col-md-3 col-sm-6').addClass('group-ac');
 
     // unhide browser

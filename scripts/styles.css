@@ -1,6 +1,13 @@
+.bar {
+    text-align: center;
+}
+.bar .logo {
+    margin-bottom: 6vh;
+    color: #555;
+}
 .search .bar {
-	margin-top: 10vw;
-    margin-bottom: 10vw;
+	margin-top: 6vh;
+    margin-bottom: 12vh;
     display: inline-block;
     width: 100%;
 }
